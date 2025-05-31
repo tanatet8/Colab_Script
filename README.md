@@ -1,18 +1,24 @@
 # 🎬 YouTube Transcript Extractor
 
-Extract transcript (subtitle) from any public YouTube video using `youtube-transcript-api` in Google Colab.
+Extract transcript (subtitle) from any public YouTube video using `youtube-transcript-api` in Google Colab or locally via Python.
 
-> 📌 Perfect for summarizing talks, repurposing content, or feeding into LLMs.
+> 🧠 Perfect for summarizing talks, repurposing content, or feeding into LLMs.
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Colab)
 
-### 1. Open in Colab  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tanat8/Colab_Script/blob/main/youtube_transcript_extractor.ipynb)
 
-### 2. Change the `video_url`  
-Replace the YouTube link in the code:
+1. Open the notebook in Colab  
+2. Change the `video_url`  
+3. Run all cells and download `transcript.txt`
 
-```python
-video_url = "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+---
+
+## 🛠 Required Packages
+
+All can be installed with:
+
+```bash
+pip install youtube-transcript-api pandas numpy matplotlib requests
